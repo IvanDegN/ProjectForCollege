@@ -380,12 +380,55 @@ p
 
   @media screen and (max-width: 1024px) 
   {
-    .filters-catalog {display: none;}
-    .filters-catalog-price {display: none;}
-    .price-to-from{display: none;}
-    .color{display: none;}
-    .choose-color{display: none;}
-    .product-catalog__wpar{display: none;}
+    
+    .wrp-catalog
+    {
+        
+        
+        
+    }
+    .product-catalog__container
+    {
+        
+        
+        width: 1000px;
+        
+    }
+    .container
+    {
+        width: 900px;
+    }
+    .items
+    {
+        
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .content
+    {
+        width: 20%;
+    }
+    .product-catalog__wrap-right
+    {
+        margin: 0 auto;
+    }
+
+    .product-catalog__wpar
+    {
+        
+        
+    }
+
+    .sort
+    {
+        margin-left: 150px;
+    }
+
+    .item-buy
+    {
+        font-size: 20px;
+    }
   }
 
  
