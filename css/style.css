@@ -743,6 +743,24 @@ ul
 	line-height: 36.33px;
 	font-weight: 400;
 }
+.phone__list__link:after
+{
+    display: block;
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.phone__list__link:hover:after,.phone__list__link:focus:after
+{
+    width: 100%;
+}
+.phone__list__link:hover
+{
+    color: black;
+    
+}
 .phone__list li
 {
 	margin-right: 20px;
