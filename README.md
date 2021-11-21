@@ -1,1 +1,1 @@
-# ProjectForCollege
+Вёрстка главной страницы
