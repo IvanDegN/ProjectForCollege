@@ -254,6 +254,7 @@ button
 .header__logo img
 {
 	max-width: 100%;
+	border-radius: 50%;
 }
 .header__logo
 {
@@ -343,7 +344,7 @@ button
 	}
 	.header__body
 	{
-		height: 50px;
+		height: 60px;
 	}
 	.header__logo
 	{
