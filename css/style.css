@@ -151,16 +151,21 @@ button
 {
 	margin-left: 150px;
 }
-.header__bottom__list__link li
-{
-	color: black;
-}
+
 .header__bottom__list li:nth-child(1)
 {
 	color:#2c75ff;
-	
 }
 
+.header__bottom__list__link:link
+{
+	color: #000000;
+}
+
+.header__bottom__list__link:visited
+{
+	color: #000000;
+}
 
 .header__bottom__list__link:hover
 {
@@ -702,6 +707,7 @@ button
 	line-height: 29.3px;
 	color: #000000;
 }
+
 .catalog__list__link:hover
 {
 	color:#2c75ff;
